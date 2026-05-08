@@ -8,12 +8,12 @@
 
 backend:
   name: github
-  repo: portfolio-sites/site-template   # CHANGE: set to actual repo, e.g. portfolio-sites/vallejo-pest-pros
+  repo: filipvalica/amarillo-foundation
   branch: main
-  base_url: https://sveltia-cms-auth.PLACEHOLDER.workers.dev  # optional OAuth proxy
+  base_url: https://sveltia-cms-auth.PLACEHOLDER.workers.dev  # optional OAuth proxy — set up later
 
 # Point to where the built site will live
-site_url: https://PLACEHOLDER.pages.dev
+site_url: https://amarillofoundation.com
 logo_url: /favicon.svg
 
 # Editorial workflow — lets VA save drafts before publishing

@@ -152,18 +152,74 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"areas": {
-"example-area.mdx": {
-	id: "example-area.mdx";
-  slug: "example-area";
+"canyon.mdx": {
+	id: "canyon.mdx";
+  slug: "canyon";
+  body: string;
+  collection: "areas";
+  data: InferEntrySchema<"areas">
+} & { render(): Render[".mdx"] };
+"downtown-amarillo.mdx": {
+	id: "downtown-amarillo.mdx";
+  slug: "downtown-amarillo";
+  body: string;
+  collection: "areas";
+  data: InferEntrySchema<"areas">
+} & { render(): Render[".mdx"] };
+"east-amarillo.mdx": {
+	id: "east-amarillo.mdx";
+  slug: "east-amarillo";
+  body: string;
+  collection: "areas";
+  data: InferEntrySchema<"areas">
+} & { render(): Render[".mdx"] };
+"south-amarillo.mdx": {
+	id: "south-amarillo.mdx";
+  slug: "south-amarillo";
+  body: string;
+  collection: "areas";
+  data: InferEntrySchema<"areas">
+} & { render(): Render[".mdx"] };
+"west-amarillo.mdx": {
+	id: "west-amarillo.mdx";
+  slug: "west-amarillo";
   body: string;
   collection: "areas";
   data: InferEntrySchema<"areas">
 } & { render(): Render[".mdx"] };
 };
 "services": {
-"example-service.mdx": {
-	id: "example-service.mdx";
-  slug: "example-service";
+"crack-repair.mdx": {
+	id: "crack-repair.mdx";
+  slug: "crack-repair";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"drainage-correction.mdx": {
+	id: "drainage-correction.mdx";
+  slug: "drainage-correction";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"foundation-inspection.mdx": {
+	id: "foundation-inspection.mdx";
+  slug: "foundation-inspection";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"pier-installation.mdx": {
+	id: "pier-installation.mdx";
+  slug: "pier-installation";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"slab-lifting.mdx": {
+	id: "slab-lifting.mdx";
+  slug: "slab-lifting";
   body: string;
   collection: "services";
   data: InferEntrySchema<"services">
