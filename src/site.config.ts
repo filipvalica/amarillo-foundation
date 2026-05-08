@@ -10,7 +10,7 @@
 export const siteConfig = {
   // ── Identity ───────────────────────────────────────────────────────────────
   businessName:   "Amarillo Foundation",
-  tagline:        "Foundation repair in Amarillo — caliche soil specialists, free inspection, lifetime warranty",
+  tagline:        "Foundation repair in Amarillo, caliche soil specialists, free inspection, lifetime warranty",
   niche:          "foundation-repair",
   primaryCity:    "Amarillo",
   state:          "TX",
