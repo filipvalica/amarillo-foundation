@@ -46,7 +46,8 @@ export const siteConfig = {
   },
 
   // ── Analytics ─────────────────────────────────────────────────────────────
-  ga4MeasurementId: "G-XXXXXXXXXX",
+  ga4MeasurementId:   "G-XXXXXXXXXX",
+  cfAnalyticsToken:   "",   // CF Dashboard → Web Analytics → amarillofoundation.com → token
 
   // ── Design ────────────────────────────────────────────────────────────────
   accentColor: "#92400e",   // warm amber/sienna for Panhandle earth tones
