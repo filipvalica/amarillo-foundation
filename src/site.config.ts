@@ -1,6 +1,6 @@
 /**
  * ─────────────────────────────────────────────────────────────────────────────
- * site.config.ts — THE ONLY FILE THAT CHANGES PER SITE
+ * site.config.ts, THE ONLY FILE THAT CHANGES PER SITE
  *
  * Clone site-template, update every PLACEHOLDER below, delete unused fields.
  * Everything else (components, pages, schema, layout) reads from this file.
@@ -15,6 +15,8 @@ export const siteConfig = {
   primaryCity:    "Amarillo",
   state:          "TX",
   phone:          "+1-PLACEHOLDER-TWILIO",   // replace with Twilio tracking number
+  phoneActive:    false as boolean,           // set true once Twilio number is live
+  formActive:     false as boolean,           // set true once Resend is wired
   email:          "leads@amarillofoundation.com",
 
   // ── Geography ──────────────────────────────────────────────────────────────
@@ -35,7 +37,7 @@ export const siteConfig = {
   trust: {
     responseTime:    "Free inspection within 48 hours",
     yearsInBusiness: 0,
-    certifications:  "TDLR Licensed — TX Structural Repair Contractor",
+    certifications:  "TDLR Licensed, TX Structural Repair Contractor",
     guarantee:       "Lifetime transferable warranty on pier installations",
   },
 
